@@ -1,0 +1,471 @@
+
+
+body {
+  font-family: Georgia, serif;
+  width: 100%;
+  background-color: white;
+  
+}
+
+h1,h2,h3,p {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.title {
+  font-size: 40px;
+}
+
+header {
+  width: 100%;
+  background: white;
+  position: relative;
+  position: fixed;
+  height: 90px;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo h1 {
+  margin: 22px 0;
+  letter-spacing: 2px;
+  /* line-height: 90px; */
+  cursor: pointer;
+
+}
+
+.logo ul {
+  list-style: none;
+  display: flex;
+}
+  
+
+.logo li {
+  font-size: 60px;
+  cursor: pointer;
+  margin: 0 20px;
+}
+  
+
+.logo-list {
+  background-color: rgb(242,242,242,0.5);
+  padding: 0px 0px 0px 0px;
+  width: 40%;
+  position: absolute;
+  top: 0;
+  position: fixed;
+  display: none;
+}
+
+.logo-list ul {
+  list-style: none;
+  /* text-align: center; */
+  /* padding: 50px; */
+}
+
+.logo-list li {
+  padding: 20px 0;
+  
+}
+
+.logo-list a {
+  color:black;
+  font-weight: 600;
+  font-size: 22px;
+  text-decoration: none;
+  
+}
+
+.fa-window-close {
+  font-size: 60px;
+  margin: 10px;
+}
+
+.main-visual {
+  /* content: ''; */
+  background-image: url(city-5772121_1920.jpg);
+  background-size: cover ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  /* position: fixed; */
+  /* z-index: 0.1; */
+  /* height: 400px; */
+  /* padding-top: 300px; */
+
+ }
+
+
+
+.about {
+  color:white;
+  padding: 250px 0;
+  /* text-align: center; */
+  
+}
+
+.about h1 {
+  font-size: 70px;
+  text-align: center;
+  width: 100%;
+}
+
+.about p {
+  font-size: 30px;
+  text-align: center;
+}
+
+.main-picure {
+  background-image: url(building-4781384_1280.jpg);
+  background-size: cover ;
+  background-repeat: no-repeat;
+  
+  background-blend-mode:lighten;
+  /* height: 500px; */
+  /* position: relative; */
+  padding: 50px 0;
+
+
+}
+
+.work {
+  background: rgba(255,255,255,0.5);
+  /* display: flex; */
+
+  /* width: 40%; */
+  padding: 10px;
+  color:white;
+  /* background-color: black; */
+  /* text-align: center; */
+  /* opacity: 0.5; */
+  /* position: absolute; */
+  /* bottom: 0; */
+}
+
+.mainpicure-title {
+margin-bottom: 25px;
+
+}
+
+
+
+.main-picure-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-left {
+  width: 50%;
+  text-align: center;
+  
+}
+
+
+
+  .main-left img {
+    border-radius: 999px;
+    height: 250px;
+
+  }
+
+.main-right {
+  width: 50%;
+}
+
+  .main-right p {
+    color:#1b1b1b;
+  }
+
+  .main-text {
+    font-size: 30px;
+    
+  }
+
+  .main-sub {
+    font-size: 20px;
+  }
+
+  .main-subtext {
+    margin-bottom: 20px;
+  }
+
+.mainpicure-title {
+  text-align: center;
+  color: black;
+  font-weight: 600;
+}
+
+.btn-work {
+  text-align: right;
+  /* width: 300px; */
+}
+
+/* group */
+
+.group {
+  padding: 40px 0;
+  background: black;
+  
+  
+}
+
+  .group-title {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: white;
+  }
+
+    .group-list {
+      display: flex;
+      justify-content: space-between;
+    }
+    .group-left {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 25px;
+    }
+ 
+    .group-right {
+      display: flex;
+      justify-content: space-around;
+    }
+ 
+     .group-list img {
+       width: 20%;
+     }
+
+    .group img:hover {
+      opacity: 0.8;
+      cursor: pointer;
+    }
+
+
+
+
+/* area */
+
+.area {
+  padding: 40px 0px;
+  background-image: url(highway-2679490_1920.jpg);
+  background-size: cover ;
+  background-repeat: no-repeat;
+  
+  background-blend-mode:lighten;
+}
+
+  .area-title {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 40px;
+    color: black;
+
+
+  }
+
+  .area-list {
+    display: flex;
+  }
+
+ 
+
+.area img {
+  width: 75%;
+  margin: 30px auto;
+  /* height: 500px;
+  float: right; */
+ 
+}
+
+.clearfix::after {
+  content: “”;
+  display: block;
+  clear: both;
+
+}
+
+.area-text {
+  background: rgba(255,255,255,0.5);
+  padding: 20px 0;
+}
+
+.area-text h2 {
+  /* font-size: 30px; */
+  font-weight: 700;
+  margin-bottom: 15px;
+  line-height: 38px;
+}
+
+.area-text p {
+  font-size: 20px;
+}
+
+/* address */
+
+.address {
+  padding: 40px 0;
+  background-color: black;
+  color: white;
+}
+
+  .address-title {
+    color: white;
+  }
+
+    .address-sub {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+.address h2 {
+  text-align: center;
+  
+  font-weight: 700;
+  /* color: white; */
+}
+
+.map {
+  background-image: url(glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 40px 0;
+  background-blend-mode:lighten;
+ 
+}
+
+  .map-title {
+    text-align: center;
+    font-weight: 700;
+  }
+
+
+
+
+
+
+
+
+
+
+
+#map {
+  height: 300px;
+  /* width: 50%; */
+  
+}
+
+footer p {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#page-top {
+  font-weight: bold;
+}
+
+.page-top {
+  opacity:0;
+  /* transform: translate(0,0); */
+  transform: translate(0,-50px);
+  transition: all 1.5s;
+}
+
+.page-left {
+  opacity:0;
+  /* transform: translate(0,0); */
+  transform: translate(-150px,0);
+  transition: all 1.5s;
+}
+
+
+
+.scrollin {
+  opacity:1 !important;
+  transform:translate(0,0)!important;
+}
+
+@media screen and (max-width:768px){
+  /* 共通 */
+  .title {
+    font-size: 30px;
+  }
+
+
+  /* logo */
+
+  .logo ul {
+    padding:0;
+    margin-top: 7px;
+  }
+  
+  .logo li {
+    margin: 0;
+    font-size: 50px;
+    margin-left: 12px;
+  }
+
+  /* about */
+  .about h1 {
+    font-size: 50px;
+  }
+
+  /* main-picure */
+
+  .main-picure-list {
+    display: block;
+  }
+
+    .main-left {
+      width: 100%;
+    }
+
+    .main-right {
+      width: 100%;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+      .main-text {
+        margin: 0;
+      }
+
+  /* group */
+  .group-list {
+    text-align: center;
+    display: block;
+  }
+
+   .group-left {
+     display: flex;
+     justify-content: space-around;
+     margin-bottom: 25px;
+   }
+
+   .group-right {
+     display: flex;
+     justify-content: space-around;
+   }
+
+    .group-list img {
+      width: 40%;
+      margin-bottom: 15px;
+      margin-right: 10px;
+    }
+
+  
+
+
+
+
+  
+ }
